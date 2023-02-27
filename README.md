@@ -29,9 +29,11 @@ https://github.com/zcubbs/ansible-collections/releases
 
 ---
 
-## Ansible Collection - General
+## Collections
 
-### Roles
+### Ansible Collection - General
+
+#### Roles
 
 - [x] pip - Install and configure pip
 - [x] certbot - Install and configure Certbot
@@ -40,10 +42,18 @@ https://github.com/zcubbs/ansible-collections/releases
 - [ ] apache - Install and configure Apache
 - [x] ping - Ping hosts
 
----
-## Ansible Collection - Cloud Native
+#### Playbooks
 
-### Roles
+None
+
+#### Modules
+
+None
+
+
+### Ansible Collection - Cloud Native
+
+#### Roles
 
 - [x] k3s - Install and configure k3s
 - [x] traefik - Install and configure Traefik
@@ -51,29 +61,27 @@ https://github.com/zcubbs/ansible-collections/releases
 - [x] helm - Install and configure Helm
 - [x] argocd - Install and configure ArgoCD
 
-### Playbooks
+#### Playbooks
 
 None
 
-### Modules
+#### Modules
 
 None
 
----
+### Ansible Collection - Docker
 
-## Ansible Collection - Docker
-
-### Roles
+#### Roles
 
 - [x] docker - Install and configure Docker and Docker Compose
 - [x] docker-login - Login to Docker registry
 - [x] docker-logout - Logout from Docker registry
 - [x] deploy-image - Deploy Docker image
 
-### Playbooks
+#### Playbooks
 
 None
 
-### Modules
+#### Modules
 
 None
